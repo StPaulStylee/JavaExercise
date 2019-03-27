@@ -1,0 +1,6 @@
+package refraction.cylinder.cylinder;
+import refraction.cylinder.power_validator.Increment;
+
+public class Cylinder extends Increment {
+
+}

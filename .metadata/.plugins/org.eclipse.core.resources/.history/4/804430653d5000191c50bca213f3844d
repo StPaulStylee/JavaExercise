@@ -1,0 +1,9 @@
+package refraction.power.sphere;
+import refraction.power.Power;
+
+public class SpherePower extends Power {
+	private RangeValidator rangeValidator = new RangeValidator(-25, 25);
+	
+	public int Power;
+	
+}

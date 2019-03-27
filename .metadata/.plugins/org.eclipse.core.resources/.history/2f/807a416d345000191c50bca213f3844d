@@ -1,0 +1,6 @@
+package refraction.cylinder.axis;
+
+public class Axis {
+	private final int minimumDegree = 1;
+	private final int maximumDegree = 180;
+}

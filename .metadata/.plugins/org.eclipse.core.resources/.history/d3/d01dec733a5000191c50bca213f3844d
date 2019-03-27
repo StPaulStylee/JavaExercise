@@ -1,0 +1,5 @@
+package refraction.power;
+import refraction.power_validator.PowerValidator;
+
+public class Cylinder extends PowerValidator {
+}

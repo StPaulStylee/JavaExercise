@@ -1,0 +1,19 @@
+package refraction.cylinder.range_validator;
+
+public class RangeValidator {
+	private double minimumValue, maximumValue, currentValue = 0;
+	
+	public RangeValidator(double minValue, double maxValue) {
+		this.minimumValue = minValue;
+		this.maximumValue = maxValue;
+	}
+	
+	public boolean ValidateRange() {
+		if (this.currentValue < this.minimumValue || this.currentValue > this.maximumValue)
+	}
+	
+	public void setCurrentValue(double value) {
+		this.currentValue = value;
+	}
+	
+}

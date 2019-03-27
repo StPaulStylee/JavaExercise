@@ -1,0 +1,15 @@
+package refraction.power;
+import refraction.power_validator.PowerValidator;
+
+public class Power extends PowerValidator {
+	private double powerValue;
+	
+	public void SetPowerValue(double powerValue) {
+		this.powerValue = powerValue;
+	}
+	
+	public int GetPowerValue() {
+		return this.powerValue;
+	}
+	
+}

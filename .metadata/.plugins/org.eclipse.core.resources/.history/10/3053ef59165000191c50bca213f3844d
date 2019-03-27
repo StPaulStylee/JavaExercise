@@ -1,0 +1,5 @@
+package refraction.increment;
+
+public abstract class Increment {
+
+}

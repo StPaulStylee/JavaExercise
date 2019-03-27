@@ -1,0 +1,13 @@
+package refraction.power;
+import refraction.power_validator.PowerValidator;
+
+public class Power extends PowerValidator {
+	private int powerValue;
+	
+	public boolean SetPowervalue(int powerValue) {
+		if (!isValidPowerValue(powerValue) ) {
+			return false;
+		}
+	}
+	
+}

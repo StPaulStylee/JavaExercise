@@ -1,0 +1,14 @@
+package refraction.cylinder.axis;
+
+public class Axis {
+	public int CurrentDegree;
+	
+	private final int MIN_BOUND = -179;
+	private final int MAX_BOUND = 360;
+	private final int MIN_DEGREE = 1;
+	private final int MAX_DEGREE = 180;
+	
+	public Axis(int degree) {
+		this.CurrentDegree = degree;
+	}
+}

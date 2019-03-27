@@ -1,0 +1,5 @@
+package refraction.cylinder.range_validity;
+
+public interface RangeValidity {
+	double minimumValue;
+}

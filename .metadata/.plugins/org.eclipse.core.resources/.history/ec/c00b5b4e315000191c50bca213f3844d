@@ -1,0 +1,7 @@
+package refraction.cylinder.range_validator;
+
+public class RangeValidity {
+	private double minimumValue, maximumValue;
+	
+	
+}

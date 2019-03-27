@@ -1,0 +1,15 @@
+package refraction.cylinder.axis_validator;
+
+public class AxisValidator {	
+	private final int MIN_BOUND = -179;
+	private final int MAX_BOUND = 360;
+	private final int MIN_DEGREE = 1;
+	private final int MAX_DEGREE = 180;
+	
+	private boolean isValidAxis(int value) {
+		if (value < this.MIN_BOUND || value > this.MAX_BOUND) {
+			return false;
+		}
+		return true;
+	}
+}

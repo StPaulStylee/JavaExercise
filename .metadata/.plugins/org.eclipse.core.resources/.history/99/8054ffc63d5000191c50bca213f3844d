@@ -1,0 +1,13 @@
+package refraction.power.sphere;
+import refraction.power.Power;
+import refraction.range_validator.RangeValidator;
+
+public class SpherePower extends Power {
+	
+	private double SpherePowerValue;
+	private final int MIN_VALUE = -25;
+	private final int MAX_VALUE = 25;
+	private RangeValidator rangeValidator = new RangeValidator(-25, 25);
+	
+	public SpherePower() {}
+}

@@ -1,0 +1,12 @@
+package refraction.cylinder.power_validator;
+
+public abstract class Increment {
+	private double increment = 0.25;
+	
+	private boolean isValidIncrement(double value) {
+		if (value % increment != 0) {
+			return false;
+		}
+		return true;
+	}
+}
