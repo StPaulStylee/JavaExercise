@@ -1,6 +1,6 @@
 package refraction.axis_validator;
 
-public class AxisValidator {	
+public abstract class AxisValidator {	
 	private final int MIN_BOUND = -179;
 	private final int MAX_BOUND = 360;
 	private final int MIN_DEGREE = 1;
