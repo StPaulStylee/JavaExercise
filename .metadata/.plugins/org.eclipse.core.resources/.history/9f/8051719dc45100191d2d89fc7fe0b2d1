@@ -1,0 +1,17 @@
+package refraction.cylinder;
+
+public class CylinderPower {
+	private String notationType;
+	private double MIN_VALUE;
+	private double MAX_VALUE;
+	
+	public CylinderPower(String type, double minValue, double maxValue) {
+		this.notationType = type;
+		this.MIN_VALUE = minValue;
+		this.MAX_VALUE = maxValue;
+	}
+	
+	public void SetNotationType(String notationType) {
+		this.notationType = notationType;
+	}
+}

@@ -1,0 +1,7 @@
+package refraction.cylinder;
+
+public class CylinderPower {
+	private String notationType;
+	private double MIN_VALUE;
+	private double MAX_VALUE;
+}
