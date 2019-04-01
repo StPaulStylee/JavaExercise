@@ -1,6 +1,8 @@
 package refraction.cylinder;
 
-public class CylinderPower {
+import refraction.power.Power;
+
+public class CylinderPower extends Power {
 	private String notationType;
 	private double MIN_VALUE;
 	private double MAX_VALUE;

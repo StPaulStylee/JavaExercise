@@ -1,0 +1,41 @@
+package refraction.main;
+import java.util.InputMismatchException;
+import java.util.Scanner;
+import refraction.power.sphere.SpherePower;
+import refraction.cylinder.CylinderPower;
+import refraction.axis.Axis;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		SpherePower spherePower = new SpherePower();
+		CylinderPower cylinderPower;
+		Axis Axis;
+		Scanner inputManager = new Scanner(System.in);
+		
+		boolean isValidCylinderInt = false;
+		System.out.println("Press 0 to enter in MINUS-CYLINDER NOTATION or press 1 to enter in PLUS-CYLINDER NOTATION");
+//		while (!inputManager.hasNextInt() && !isValidCylinderInt) {
+//			
+//			System.out.println("INVALID ENTRY: Press 0 to enter in MINUS-CYLINDER NOTATION or press 1 to enter in PLUS-CYLINDER NOTATION");
+//		}
+		while (!isValidCylinderInt) {
+			if (inputManager.hasNextInt()) {
+				if (inputManager.nextInt() == 0 || inputManager.nextInt() ==1) {
+					isValidCylinderInt = true;
+					SetCylinderType(inputManager.nextInt());
+				}
+			}
+
+		}
+		
+		SetCylinderType(inputManager);
+	}
+	
+	private static void SetCylinderType(Scanner inputManager) {
+ 		int notationType = inputManager.nextInt();
+ 		System.out.println(notationType);
+ 		if (notation)
+	}
+
+}
